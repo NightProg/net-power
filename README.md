@@ -74,10 +74,10 @@ the json must have the following format:
 ```json
 {
   "name": "<name>",
-  variables: {
+  "variables": {
     "<variable name>": "<variable value>"
   },
-  calculations: [
+  "calculations": [
     {
       "name": "<calculation name>",
       "expression": "<calculation expression>"
@@ -101,11 +101,11 @@ change `<calculation expression>` for the expression of the calculation.
 ```json
 {
   "name": "example",
-  variables: {
+  "variables": {
     "a": "2",
     "b": "2"
   },
-  calculations: [
+  "calculations": [
     {
       "name": "sum",
       "expression": "a+b"
